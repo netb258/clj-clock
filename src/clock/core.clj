@@ -102,7 +102,6 @@
        (take-nth 5) ;; We only need the ones for 0, 5, 10, 15, 20 ...
        (reverse)))
 
-
 (defn setup []
   (q/frame-rate 60)
   (q/stroke 0)
@@ -153,8 +152,6 @@
                                 (str num)
                                 (first (nth hour-num-points idx))
                                 (second (nth hour-num-points idx))))))))
-
-
 
   ;; One circle in the center just for aesthetics:
   (q/ellipse (/ WIDTH 2) (/ HEIGHT 2) 20 20))
