@@ -144,7 +144,6 @@
   (let [hour-points (get-hour-points)
         hour-num-points (get-hour-numbers-points)]
     (doall (map #(q/ellipse (first %) (second %) 10 10) hour-points))
-    ;; This sucks, make a function that gets the hour numbers points.
     (doall (->> (cons 12 (rest (range 0 12))) ;; NOTE: The nums should be 1 - 12, not 0 - 11, so we need a slight fix.
                 (reverse)
                 (map-indexed (fn [idx num]
