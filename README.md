@@ -4,7 +4,6 @@ Analog clock rendered with Quil.
 
 ## Usage
 
-FIXME: explanation
 
     $ lein run
 
