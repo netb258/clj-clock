@@ -9,7 +9,7 @@
 (def TICK-WIDTH 5)
 (def TICK-HEIGHT 80)
 
-;; The ticks for hrs, min and sec are goint to be trianges of 3 points, like this: [[10 25] [50 65] [80 95]]
+;; The ticks for hrs, min and sec are going to be trianges of 3 points, like this: [[10 25] [50 65] [80 95]]
 (def CENTER-X (/ WIDTH 2))
 (def CENTER-Y (- (/ HEIGHT 2) TICK-HEIGHT)) ;; The center is at the bottom of the triangles.
 
